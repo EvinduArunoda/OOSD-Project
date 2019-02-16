@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0;}
+.clearfix{	overflow: auto; }
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.welcome-message{
+	width: 1000px;
+	padding: 25px 0 25px 0;
+	background: linear-gradient(#0066cc, #0073e6, #0080ff, #1a8cff, #3399ff, #4da6ff, #80bfff, #b3d9ff);
+}
+
+.add-msg{
+	background: #b3d9ff;
+	padding: 10px 0 10px 0;
+}
+
+nav{
+	margin: 5px;
+	text-align: center;
+	background: linear-gradient(#0088cc, #b3d9ff, #0088cc);
+	border-radius: 5px;
+}
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	font-size: 20px; 
+	display: inline;
+}
+
+nav ul li a{
+	color: black;
+	margin: 10px 25px 10px 25px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #444;
+}
+
+.intro{
+	width: 980px;
+	margin: 10px;
+}
+
+.intro-img{
+	width: 400px;
+	float: left;
+}
+
+.intro-img image{
+	width: 400px;
+}
+
+.inrto-data{
+	width: 580px;
+	float: left;
+}
+
+.intro-data h2{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.intro-data p{
+	margin: 10px 0 5px 10px;
+	font-size: 18px;
+}
+
+.intro-data a{
+	text-transform: uppercase;
+	float: right;
+}
+
+.intro-data a:hover{
+	font-weight: bold;
+}
+
+.equipment-show{
+	width: 990px;
+	margin: 10px 0 10px 10px;
+}
+
+.equipments{
+	float: left;
+	width: 227.5px;
+	height: 100px;
+	margin-right: 10px;
+	padding: 10px 0 10px 10px;
+	background: yellow;
+}
+
+.bottom-end{
+	height: 50px;
+	background: linear-gradient(#b3d9ff, #80bfff, #4da6ff, #3399ff, #1a8cff, #0080ff, #0073e6, #0066cc);
+}

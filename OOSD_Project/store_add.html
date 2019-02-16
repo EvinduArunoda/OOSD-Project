@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add a New Store</title>
+	<link rel="stylesheet" type="text/css" href="css\store_add.css">
+</head>
+<body>
+	<div class="wrapper clearfix">
+		<div class="welcome-message">
+			<h2><center>Welcome to Team Novus</center></h2>
+		</div> <!--welcome-message-->
+		<div class="add-msg clearfix">
+			<h3><center>Add a New Store</center></h3>
+		</div> <!--add-msg-->
+		<div class="add-data clearfix">
+			<div class="title">
+				<h3>Basic Information</h3>
+			</div> <!--basic-->
+			<div class="title">
+				<h3>Contact Information</h3>
+			</div> <!--contact-->
+			<div class="title">
+				<h3>Other Information</h3>
+			</div> <!--other-->
+		</div> <!--add-data-->
+		<div class="data clearfix">
+			<div class="basic-data">
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+					Company Name:<br><input type="text" name="company name"><br>
+					Store Name:<br><input type="text" name="store name"><br>
+					Email Address:<br><input type="text" name="email"><br>
+					Registration Code:<br><input type="text" name="reg code"><br>
+					Logo:<br><input type="file" name="logo" id="logo">
+					<input type="submit" value="Upload Logo" name="upload image">
+				</form>
+			</div> <!--basic-data-->
+			<div class="contact-data">
+				<form>
+					Phone:<br><input type="text" name="phone"><br>
+					Mobile:<br><input type="text" name="mobile"><br>
+					Fax:<br><input type="text" name="fax"><br>
+					Website:<br><input type="text" name="website"><br>
+					Postal Address:<br><input type="text" name="address">
+				</form>
+			</div> <!--contact-data-->
+			<div class="other-data">
+				<form>
+					Province:<br><input type="text" name="province"><br>
+					City:<br><input type="text" name="city"><br>
+					Postal Code:<br><input type="text" name="postalcode"><br>
+					Description:<br><textarea name="description" form="usrform">Enter the Description...</textarea>
+					<input type="submit" value="Submit" name="submit">
+			</div> <!--other-data-->
+		</div> <!--data-->
+		<div class="bottom-end clearfix">
+			<h3 style="margin-top: 15px"><center>The bottom end</center></h3>
+		</div> <!--bottom-end-->
+	</div> <!--wrapper-->
+</body>
+</html>

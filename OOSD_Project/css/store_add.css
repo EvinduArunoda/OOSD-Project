@@ -1,0 +1,95 @@
+* {margin: 0; padding: 0;}
+
+form input[type="text"]{
+	font-size: 11pt;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 10px;
+	width: 275px;
+}
+
+textarea{
+	font-size: 10pt;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 10px;
+	width: 275px;
+	height: 75px;
+}
+
+.clearfix{	overflow: auto; }
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.welcome-message{
+	width: 1000px;
+	padding: 25px 0 25px 0;
+	background: linear-gradient(#0066cc, #0073e6, #0080ff, #1a8cff, #3399ff, #4da6ff, #80bfff, #b3d9ff);
+}
+
+.add-msg{
+	background: #b3d9ff;
+	padding: 10px 0 10px 0;
+}
+
+.add-data{
+	width: 990px;
+	margin: 10px 0 10px 10px;
+	display: inline-block;
+}
+
+.title{
+	width: 310px;
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+	background: #80bfff;
+}
+
+.data{
+	width: 980px;
+	margin: 10px;
+}
+
+.basic-data{
+	width: 310px;
+	float: left;
+	padding-left: 10px;
+}
+
+.basic-data form input[type="submit"]{
+	font-size: 10pt;
+	margin: 10px 0 10px 0;
+	width: 125px;
+}
+
+.contact-data{
+	width: 310px;
+	float: left;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.other-data{
+	width: 310px;
+	float: left;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.other-data form input[type="submit"]{
+	float: right;
+	margin-right: 25px;
+	width: 75px;
+	padding: 5px 10px 5px 10px;
+}
+
+.other-data form input[type="submit"]:hover{
+	font-weight: bold;
+}
+
+.bottom-end{
+	height: 50px;
+	background: linear-gradient(#b3d9ff, #80bfff, #4da6ff, #3399ff, #1a8cff, #0080ff, #0073e6, #0066cc);
+}

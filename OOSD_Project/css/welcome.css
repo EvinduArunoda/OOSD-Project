@@ -1,0 +1,63 @@
+* {margin: 0; padding: 0;}
+.clearfix{	overflow: auto; }
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.welcome-message{
+	width: 1000px;
+	padding: 25px 0 25px 0;
+	background: linear-gradient(#0066cc, #0073e6, #0080ff, #1a8cff, #3399ff, #4da6ff, #80bfff, #b3d9ff);
+}
+
+.add-msg{
+	background: #b3d9ff;
+	padding: 10px 0 10px 0;
+}
+
+.register{
+	width: 980px;
+	margin: 10px;
+}
+
+.image{
+	width: 400px;
+	float: left;
+}
+
+.reg-data{
+	width: 350px;
+	float: left;
+}
+
+.advertisements{
+	width: 230px;
+	float: left;
+}
+
+.reg-data form{
+	padding: 5px 0 5px 15px;
+}
+
+.reg-data form input[type="text"]{
+	padding: 5px 0 5px 10px;
+	width: 300px;
+	margin-bottom: 10px;
+	font-size: 10pt;
+}
+
+.reg-data form input[type="submit"]{
+	width: 75px;
+	padding: 5px 10px 5px 10px;
+}
+
+.reg-data form input[type="submit"]:hover{
+	font-weight: bold;
+}
+
+.bottom-end{
+	height: 50px;
+	background: linear-gradient(#b3d9ff, #80bfff, #4da6ff, #3399ff, #1a8cff, #0080ff, #0073e6, #0066cc);
+}
